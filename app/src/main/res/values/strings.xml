@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Phoenix Project</string>
+    <string name="myclients">Clients </string>
+    <string name="mysuppliers">Suppliers</string>
+    <string name="myproducts">Products</string>
+    <string name="title_profile">ME</string>
+    <string name="scan">Scan</string>
+    <string name="description">Description</string>
+    <string name="_500_00">500.00 $</string>
+    <string name="product_name">Product Name</string>
+    <string name="egp">Egp</string>
+</resources>

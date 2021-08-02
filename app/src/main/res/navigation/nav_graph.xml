@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:startDestination="@+id/navigation_supplier">
+
+    <fragment
+        android:id="@+id/navigation_supplier"
+        android:name="com.example.phoenixproject.ui.main.suppliers.MySuppliersFragment"
+        android:label="@string/mysuppliers"
+        tools:layout="@layout/fragment_mysuppliers" />
+
+    <fragment
+        android:id="@+id/navigation_products"
+        android:name="com.example.phoenixproject.ui.main.products.MyProductsFragment"
+        android:label="@string/myproducts"
+        tools:layout="@layout/fragment_myproducts" />
+
+    <fragment
+        android:id="@+id/navigation_clients"
+        android:name="com.example.phoenixproject.ui.main.clients.MyClientsFragment"
+        android:label="@string/myclients"
+        tools:layout="@layout/fragment_myclients" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.phoenixproject.ui.main.profile.profileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>
